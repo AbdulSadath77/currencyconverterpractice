@@ -19,7 +19,7 @@ function SelectAndInput({
         </label>
         <select
           id={selectElemId}
-          className="w-fit self-end mb-2 p-2 bg-slate-200 rounded-md cursor-pointer uppercase"
+          className="w-fit self-end mb-2 font-semibold p-2 bg-slate-200 rounded-md cursor-pointer uppercase"
           value={selectedCurrencyOption}
           onChange={(e) => setCurrencyChange(e.target.value)}
         >
